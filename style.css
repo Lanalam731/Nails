@@ -39,6 +39,7 @@
     background-color: #c0dbbf;
     color: white;
   }
+
   function myFunction() {
     var x = document.getElementById("myLinks");
     if (x.style.display === "block") {
@@ -59,20 +60,3 @@
   .fa-bars {
     vertical-align: middle;
   }
-  /* ensures children take full-height of viewport */
-.wrapper {
-  display: flex;
-  align-items: stretch;
-  min-height: 100vh;
-}
-.menu-toggle {
-  display: none;
-}
-@media (max-width: 767px) {
-  .sidebar {
-    display: none;
-  }
-  .menu-toggle {
-    display: initial; /* display the toggle, previously hidden */
-  }
-}
