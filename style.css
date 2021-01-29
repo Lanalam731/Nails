@@ -49,7 +49,7 @@
     }
   }
   /* Navbar Logo*/
-  .logo img{
+  .topnav img{
       width:3in;
       padding-bottom: 30px;
   }
@@ -59,4 +59,9 @@
 
   .fa-bars {
     vertical-align: middle;
+  }
+  .navbar {
+    overflow: hidden;
+    background-color: #c0dbbf;
+    position: relative;
   }

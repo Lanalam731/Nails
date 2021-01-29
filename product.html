@@ -12,31 +12,21 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body>
-  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 <!-- Top Navigation Menu -->
 <div class="topnav">
   <a href="#home" class="active logo"><img src="img/logowhite1crop.png"></a>
-  <!-- Navigation links (hidden by default) -->
-  <div id="myLinks">
-    <a href="index.html">Home</a>
-    <a href="products.html">Products</a>
-    <a href="about.html">About</a>
-  </div>
-  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-  <header>
-		<div class="top">
-			<a href="#" class="menu_icon"><i class="material-icons">dehaze</i></a>
-		</div>
-	</header>
-	<nav class="menu">
-		<a href="#" class="item_menu">home</a>
-		<a href="#" class="item_menu">about</a>
-		<a href="#" class="item_menu">products</a>
-		<a href="#" class="item_menu">services</a>
-		<a href="#" class="item_menu">contact</a>
-	</nav>
-    
+  <ul class="navbar-nav ml-md-auto">
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Dropdown
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Something else here</a>
+      </div>
+    </li>
+    </ul>
 </body>
 </html>
