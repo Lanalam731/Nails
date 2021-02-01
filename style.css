@@ -26,3 +26,69 @@ hr {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+.topnav {
+    overflow: hidden;
+    background-color: #c0dbbf;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: #c0dbbf;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #c0dbbf;
+    color: white;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #c0dbbf;
+    color: white;
+  }
+
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  /* Navbar Logo*/
+  .topnav img{
+      width:3in;
+      padding-bottom: 30px;
+  }
+  .topnav{
+      height: 70px;
+  }
+
+  .fa-bars {
+    vertical-align: middle;
+  }
+  .navbar {
+    overflow: hidden;
+    background-color: #c0dbbf;
+    position: relative;
+  }
