@@ -1,78 +1,28 @@
 /* Style the navigation menu */
-.topnav {
-    overflow: hidden;
-    background-color: #c0dbbf;
-    position: relative;
-  }
-  
-  /* Hide the links inside the navigation menu (except for logo/home) */
-  .topnav #myLinks {
-    display: none;
-  }
-  
-  /* Style navigation menu links */
-  .topnav a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-  }
-  
-  /* Style the hamburger menu */
-  .topnav a.icon {
-    background: #c0dbbf;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  
-  /* Add a grey background color on mouse-over */
-  .topnav a:hover {
-    background-color: #c0dbbf;
-    color: white;
-  }
-  
-  /* Style the active link (or home/logo) */
-  .active {
-    background-color: #c0dbbf;
-    color: white;
-  }
-  function myFunction() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
-  /* Navbar Logo*/
-  .logo img{
-      width:3in;
-      padding-bottom: 30px;
-  }
-  .topnav{
-      height: 70px;
-  }
+.navbar{
+  background-color:#c0dbbf;
+}
+.navbar a{
+  color:rgb(22, 22, 22)
+}
+#navbarDropdownMenuLink{
+  color:white;
+}
 
-  .fa-bars {
-    vertical-align: middle;
-  }
-  /* ensures children take full-height of viewport */
-.wrapper {
-  display: flex;
-  align-items: stretch;
-  min-height: 100vh;
+.card img {
+  height:400px;
+  width: auto;
 }
-.menu-toggle {
-  display: none;
+/* Footer */
+footer{
+background-color: rgba(62, 97, 63, 0.753);
 }
-@media (max-width: 767px) {
-  .sidebar {
-    display: none;
-  }
-  .menu-toggle {
-    display: initial; /* display the toggle, previously hidden */
-  }
+
+footer img {
+  height: 70px;
+}
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
