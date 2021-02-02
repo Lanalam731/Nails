@@ -1,21 +1,48 @@
+body {
+  background-color: #e8e4e0;
+}
+
 /* Style the navigation menu */
+
 .navbar{
-  background-color:#c0dbbf;
+  background-color:#c5c4b2;
+  margin-bottom: 20px;
 }
 .navbar a{
   color:rgb(22, 22, 22)
 }
 #navbarDropdownMenuLink{
-  color:white;
+  color:rgb(255, 255, 255);
 }
 
-.card img {
-  height:400px;
-  width: auto;
+/* quality nails */
+h2 {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+/* Cards */
+
+.card {
+  background-color: #d2beb0;
+  color: white;
+  border-color: white;
+}
+.btn {
+  background-color: #d2beb0;
+  color: white;
+  border-color: white;
 }
 /* Footer */
 footer{
-background-color: rgba(62, 97, 63, 0.753);
+background-color: #555548;
+margin-top: 20px;
+color: white;
 }
 
 footer img {
@@ -26,69 +53,26 @@ hr {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.topnav {
-    overflow: hidden;
-    background-color: #c0dbbf;
-    position: relative;
+  .card img {
+    height:400px;
+    width: auto;
   }
-  
-  /* Hide the links inside the navigation menu (except for logo/home) */
-  .topnav #myLinks {
-    display: none;
+  /*Page Header for products*/
+  .page-header h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
-  
-  /* Style navigation menu links */
-  .topnav a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
+  /* Product page carousel*/
+  .product-carousel img{
+    height:450px;
   }
-  
-  /* Style the hamburger menu */
-  .topnav a.icon {
-    background: #c0dbbf;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  
-  /* Add a grey background color on mouse-over */
-  .topnav a:hover {
-    background-color: #c0dbbf;
-    color: white;
-  }
-  
-  /* Style the active link (or home/logo) */
-  .active {
-    background-color: #c0dbbf;
-    color: white;
-  }
-
-  function myFunction() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
-  /* Navbar Logo*/
-  .topnav img{
-      width:3in;
-      padding-bottom: 30px;
-  }
-  .topnav{
-      height: 70px;
-  }
-
-  .fa-bars {
-    vertical-align: middle;
-  }
-  .navbar {
-    overflow: hidden;
-    background-color: #c0dbbf;
-    position: relative;
+  /*shape button*/
+  .fun {
+    width: 100%;
+    margin-bottom: 2rem;
+    height:1in;
+    background-color:#D2Beb0;
+    color:rgb(83, 65, 42);
   }
