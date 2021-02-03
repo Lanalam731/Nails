@@ -19,24 +19,40 @@ body {
 h2 {
   font-size: 50px;
   font-weight: bolder;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 p {
   font-size: 20px;
-  font-weight: bolder;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.col-lg-6 img {
+  height: 500px;
+  width: 800px;
 }
 
 /* Cards */
 
+.col-12 h1 {
+  padding-bottom: 20px;
+}
+
 .card {
   background-color: #d2beb0;
-  color: white;
+  color: rgb(82, 80, 80);
   border-color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  height: 600px;
 }
 .btn {
   background-color: #d2beb0;
-  color: white;
+  color: rgb(82, 80, 80);
   border-color: white;
+}
+
+.card-title {
+  font-weight: bolder;
 }
 /* Footer */
 footer{
@@ -54,7 +70,7 @@ hr {
   margin-bottom: 30px;
 }
   .card img {
-    height:400px;
+    height:300px;
     width: auto;
   }
   /*Page Header for products*/
