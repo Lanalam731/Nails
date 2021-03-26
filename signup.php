@@ -1,10 +1,10 @@
 <?php
-     require 'header.php';
+     include 'header.php';
      require 'includes/dbh.inc.php';
 ?>
 
     <main>
-        <h1>Signup</h1>
+        <h2>Signup</h2>
         <?php
         if (isset($_GET['error'])) {
             if ($_GET['error'] == "emptyfields") {
@@ -35,6 +35,8 @@
             <input type="text" name="mail" placeholder="E-mail">
             <input type="password" name="pwd" placeholder="Password">
             <input type="password" name="pwd-repeat" placeholder="Repeat password">
-            <button type="submit" name="signup-submit">Signup</button>
+            <button type="submit" name="signup-submit" class="btn">Signup</button>
         </form>
     </main>
+    </body>
+    </html>

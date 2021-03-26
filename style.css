@@ -74,7 +74,7 @@ hr {
     width: auto;
   }
   /*Page Header for products*/
-  .page-header h1{
+  .page-header{
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
@@ -92,3 +92,7 @@ hr {
     background-color:#D2Beb0;
     color:rgb(83, 65, 42);
   }
+  /*Login System*/
+h1{
+  color: rebeccapurple;
+}

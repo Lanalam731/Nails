@@ -6,7 +6,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Prim and Polished/home</title>
+        <title>Prim and Polished</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -39,7 +39,7 @@
                      
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                         <span class="navbar-toggler-icon"></span>
-                    </button> <a class="navbar-brand" href="index.html"><img src="img/logowhite1crop.png"></a>
+                    </button> <a class="navbar-brand" href="index.php"><img src="img/logowhite1crop.png"></a>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         
                         <ul class="navbar-nav ml-md-auto">
@@ -59,6 +59,3 @@
 </header>
 
 
-</body>
-
-</html>
