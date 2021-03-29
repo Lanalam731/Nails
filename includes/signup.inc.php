@@ -46,7 +46,7 @@ $passwordRepeat = $_POST['pwd-repeat'];
             }
             else {
 
-                $sql = "INSERT INTO users (uidUsers, emailusers, pwdUsers) VALUES (?, ?, ?)";
+                $sql = "INSERT INTO users (uidUsers, emailUsers, pwdUsers) VALUES (?, ?, ?)";
                 $stmt = mysqli_stmt_init($conn);
                 if (!mysqli_stmt_prepare($stmt, $sql)) {
                     header("Location: ../signup.php?error=sqlerror");
