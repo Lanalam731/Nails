@@ -4,7 +4,10 @@
 ?>
 
     <main>
-        <h2 style="text-align:center;">Signup</h2>
+        <div class="signupTitle">
+        <h2 >Signup</h2>
+        <hr>
+        </div>
         <?php
         if (isset($_GET['error'])) {
             if ($_GET['error'] == "emptyfields") {
@@ -41,7 +44,7 @@
                 <input type="password" name="pwd" placeholder="Password">
             <label for="pwd-repeat">Repeat Password</label>
                 <input type="password" name="pwd-repeat" placeholder="Repeat password">
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit" name="signup-submit">
         </form>
     </div>
     </main>

@@ -104,6 +104,8 @@ input[type=text], select {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  margin-inline: 478px;
+  width: 4in;
 }
 input[type=password], select {
   width: 50%;
@@ -113,10 +115,12 @@ input[type=password], select {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  margin-inline: 478px;
+  width: 4in;
 }
 
 input[type=submit] {
-  width: 50%;
+  width: 15%;
   background-color: #da906e;
   color: white;
   padding: 14px 20px;
@@ -124,6 +128,7 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  margin-inline: 572px;
 }
 
 input[type=submit]:hover {
@@ -139,12 +144,20 @@ label{
   background-color:rgb(56, 48, 48);
   color:white;
   width: 2in;
-  height:.5in;
+  height:.3in;
   border-radius: 4px;
   text-align: center;
   font-family: Cambria;
-  font-size: 25px;
+  font-size: 20px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  border-style: dotted;
-  border-color: #da906e;
+  margin-top: 10px;
 } 
+.signupForm {
+  text-align: center;
+  background-color: #79796780;
+  background-size: 300px 100px;
+}
+.signupTitle h2{
+text-align: center;
+font-family: Garamond;
+}
