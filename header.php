@@ -1,6 +1,3 @@
-<?php
- session_start();
-?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -16,7 +13,17 @@
 <body>
 <header>
     <nav>
-    
+        <!--Style for the navigation bar-->  
+  <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-lg">
+                     
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="navbar-toggler-icon"></span>
+                    </button> <a class="navbar-brand" href="index.php"><img src="img/logowhite1crop.png"></a>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="loginForm">
         <?php
              if (isset($_SESSION['userId'])) {
                  echo ' <form action="includes/logout.inc.php" method="post">
@@ -29,19 +36,10 @@
                  <input type="password" name="pwd" placeholder="Password">
                  <button type="submit" name="login-submit">Login</button>
                  <a href="signup.php">Signup</a>';
-            }    
+
+            }  
         ?>
-        <!--Style for the navigation bar-->  
-  <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <nav class="navbar navbar-expand-lg">
-                     
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="navbar-toggler-icon"></span>
-                    </button> <a class="navbar-brand" href="index.php"><img src="img/logowhite1crop.png"></a>
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        
+         </div>               
                         <ul class="navbar-nav ml-md-auto">
                             <li class="nav-item dropdown">
                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown">Menu</a>

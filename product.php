@@ -93,5 +93,7 @@
 			</div>
 		</div>
 	</div>
-</body>
-</html>
+    <?php
+            //footer
+            require 'footer.php';
+    ?>

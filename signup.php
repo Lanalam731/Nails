@@ -10,7 +10,7 @@
         </div>
         <?php
         if (isset($_GET['error'])) {
-            if ($_GET['error'] == "emptyfields") {
+            if ($_GET['error'] == "emptyfields&uid") {
                 echo '<p class=signuperror">Fill in all fields!</p>';
             }
             else if ($_GET['error'] == "invaliduidmail") {
@@ -48,5 +48,10 @@
         </form>
     </div>
     </main>
-    </body>
-    </html>
+    <?php
+            //footer
+            require 'footer.php';
+    ?>
+    
+		
+		
