@@ -30,7 +30,7 @@
             }
         }
        
-        else if ($_GET["signup"] == "success") {
+        else if ($_GET[''] == "success") {
             echo '<p class="signupsuccess">Signup successful!</p>';
         }
         ?>
@@ -44,7 +44,7 @@
                 <input type="password" name="pwd" placeholder="Password">
             <label for="pwd-repeat">Repeat Password</label>
                 <input type="password" name="pwd-repeat" placeholder="Repeat password">
-                <input type="submit" value="Submit" name="signup-submit">
+            <input type="submit" value="Submit" name="signup-submit">
         </form>
     </div>
     </main>

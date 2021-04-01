@@ -23,7 +23,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button> <a class="navbar-brand" href="index.php"><img src="img/logowhite1crop.png"></a>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <div class="loginForm">
+        
         <?php
              if (isset($_SESSION['userId'])) {
                  echo ' <form action="includes/logout.inc.php" method="post">
@@ -31,15 +31,14 @@
                  </form>';
             }
             else {
-                 echo '<form action="includes/login.inc.php" method="post">
+                 echo '<form action="includes/login.inc.php" method="post" class="loginForm">
                  <input type="text" name="mailuid" placeholder="E-mail/Username">
                  <input type="password" name="pwd" placeholder="Password">
-                 <button type="submit" name="login-submit">Login</button>
+                 <input type="submit" value="Submit" name="login-submit">
                  <a href="signup.php">Signup</a>';
 
-            }  
-        ?>
-         </div>               
+            } 
+        ?>              
                         <ul class="navbar-nav ml-md-auto">
                             <li class="nav-item dropdown">
                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown">Menu</a>
