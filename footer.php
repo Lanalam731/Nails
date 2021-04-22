@@ -7,12 +7,12 @@
             <hr class="light">
             <h5>Store Hours</h5>
             <hr class="light">
-            <p>Monday-Thursday:11am-9pm</p>
-            <p>Friday-Saturday:11am-10pm</p>
-            <p>Sunday:closed</p>
+            <p>Monday-Thursday: 11am-9pm</p>
+            <p>Friday-Saturday: 11am-10pm</p>
+            <p>Sunday: Closed</p>
           </div>
           <div class="col-md-4">
-            <img src="img/logowhite1crop.png">
+            <h1>Prim and Polished</h1>
             <hr class="light">
             <p>213-597-5555</p>
             <p>ppnails@gmail.com</p>
